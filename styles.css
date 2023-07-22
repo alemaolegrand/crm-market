@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-container{
+    color: white;
+    padding: 15px 0px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marketing-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+
+#loading-container img {
+    object-fit: contain;
+
+}
+
+.profile-card {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: solid 1px rgba(255, 255, 255, 0.066);
+    transition: all ease-in-out 300ms;
+}
+
+.profile-card p {
+    font-weight: 800;
+    margin: 0px;
+    
+}
+
+.profile-card:hover {
+    transform: scale(102%);
+    -webkit-box-shadow:0px 0px 28px 4px rgba(46,255,60,0.34);
+    -moz-box-shadow: 0px 0px 28px 4px rgba(46,255,60,0.34);
+    box-shadow: 0px 0px 28px 4px rgba(46,255,60,0.34);
+}
+
+.profile-card span {
+    color: rgb(44, 44, 44);
+    
+}
+
+.profile-card img {
+    border-radius: 99px;
+}
+
+.negociador {
+    font-size: 10px;
+}
+
+.tag-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-list-container {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-card p {
+    margin: 0px;
+    font-weight: 600;
+}
+
+.item-card {
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.052);
+}
+
+.avaliable {
+    width: 10px;
+    height: 10px;
+    border-radius: 99px;
+    background-color: rgb(9, 255, 0);
+}
+
+.no-connect {
+    font-size: 10px;
+}

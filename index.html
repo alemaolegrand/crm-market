@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CRM market</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <img src="/assets/crmarket.svg" width="180px" />
+            <img src="/assets/greenload.gif" width="50px" />
+        </div>
+    </nav>
+
+    <div id="loading-container">
+        <img src="/assets/load.gif" width="400px" alt="Loading..." />
+    </div>
+    <div id="content" style="display: none;">
+        <section class="marketing-content">
+            <a href="https://discord.com/channels/240619957656879104" target="_blank">
+                
+                <!-- profile seller -->
+                <div class="profile-card">
+                    <img src="/assets/profile.jpg" width="50px" height="50px" />
+
+                    <div class="tag-description">
+                        <div class="negociador">
+                            Negociador
+                        </div>
+                        <p>
+                            <span>[CRM]</span> Oracle
+                        </p>
+
+                    </div>
+                </div>
+            </a>
+
+            <div class="item-list-container">
+
+                <div>
+                    <img src="/assets/soon.gif" width="140px"/>
+                </div>
+
+                <p class="no-connect">
+                    sem conexão...
+                </p>
+                <!-- <div class="item-card">
+                    <p>item nome</p>
+                    <div class="avaliable"></div>
+                </div>
+
+                <div class="item-card">
+                    <p>item nome</p>
+                    <div class="avaliable"></div>
+                </div>
+
+                <div class="item-card">
+                    <p>item nome</p>
+                    <div class="avaliable"></div>
+                </div>
+
+                <div class="item-card">
+                    <p>item nome</p>
+                    <div class="avaliable"></div>
+                </div>
+
+                <div class="item-card">
+                    <p>item nome</p>
+                    <div class="avaliable"></div>
+                </div>
+
+                <div class="item-card">
+                    <p>item nome</p>
+                    <div class="avaliable"></div>
+                </div> -->
+
+            </div>
+        </section>
+    </div>
+
+    <script>
+       window.addEventListener("load", function () {
+            var loadingContainer = document.getElementById("loading-container");
+            var content = document.getElementById("content");
+
+            setTimeout(function () {
+                loadingContainer.style.display = "none";
+                content.style.display = "block";
+            }, 4500);
+        });
+    </script>
+</body>
+
+</html>
